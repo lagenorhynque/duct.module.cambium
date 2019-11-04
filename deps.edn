@@ -1,0 +1,9 @@
+{:deps {;; Duct
+        duct/core {:mvn/version "0.7.0"}
+        duct/logger {:mvn/version "0.3.0"}
+
+        ;; Cambium
+        cambium/cambium.codec-cheshire {:mvn/version "0.9.3"}
+        cambium/cambium.core {:mvn/version "0.9.3"}
+        cambium/cambium.logback.json {:mvn/version "0.4.3"}}
+ :paths ["src"]}
