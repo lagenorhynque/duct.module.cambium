@@ -1,5 +1,8 @@
 # duct.module.cambium
 
+[![Circle CI](https://circleci.com/gh/lagenorhynque/duct.module.cambium.svg?style=shield)](https://circleci.com/gh/lagenorhynque/duct.module.cambium)
+[![codecov](https://codecov.io/gh/lagenorhynque/duct.module.cambium/branch/master/graph/badge.svg)](https://codecov.io/gh/lagenorhynque/duct.module.cambium)
+
 A Clojure library designed to ... well, that part is up to you.
 
 ## Usage
