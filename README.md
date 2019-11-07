@@ -29,7 +29,10 @@ To add this module to your configuration, add a reference to `:duct.module/cambi
  :duct.module/cambium {}}
 ```
 
-And add `logback.xml` (or `logback-test.xml`) like below to the resource path.
+- `:duct.module/cambium` can have one option:
+    - `:top-level-field`: top-level field name for nested data of MDC map (default: `:option`)
+
+And add `logback.xml` (or `logback-test.xml`) as below to the resource path.
 
 ```xml
 <configuration>

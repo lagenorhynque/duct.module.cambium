@@ -37,7 +37,7 @@
     (let [mdc {:ns ns-str
                :line line
                :column nil
-               :option data}]
+               (:top-level-field config) data}]
       (case level
         :fatal (fatal event mdc)
         :error (error event mdc)
@@ -48,5 +48,6 @@
         nil))))
 
 (defmethod ig/init-key :duct.logger/cambium
-  [_ config]
-  (->Logger config))
+  [_ {:keys [top-level-field]
+      :or {top-level-field :option}}]
+  (->Logger {:top-level-field top-level-field}))

@@ -13,7 +13,7 @@
       </layout>
     </encoder>
   </appender>
-  <root level="debug">
+  <root level="trace">
     <appender-ref ref="STDOUT" />
   </root>
 </configuration>

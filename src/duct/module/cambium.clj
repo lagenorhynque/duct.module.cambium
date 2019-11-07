@@ -3,8 +3,8 @@
             [integrant.core :as ig]))
 
 (defmethod ig/init-key :duct.module/cambium
-  [_ _]
+  [_ options]
   (fn [config]
     (duct/merge-configs
      config
-     {:duct.logger/cambium {}})))
+     {:duct.logger/cambium (select-keys options [:top-level-field])})))
