@@ -8,4 +8,4 @@ All notable changes to this project will be documented in this file. This change
 - Duct module for Cambium
     - structured (JSON) logging
 
-[Unreleased]: https://github.com/your-name/duct.module.cambium/compare/0.1.0...HEAD
+[Unreleased]: https://github.com/lagenorhynque/duct.module.cambium/compare/0.1.0...HEAD
