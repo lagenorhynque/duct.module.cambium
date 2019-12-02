@@ -1,4 +1,4 @@
-(defproject duct.module.cambium "2.0.0-SNAPSHOT"
+(defproject duct.module.cambium "1.1.0-SNAPSHOT"
   :description "Duct module for Cambium"
   :url "https://github.com/lagenorhynque/duct.module.cambium"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"

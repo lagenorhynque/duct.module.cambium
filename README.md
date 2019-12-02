@@ -11,7 +11,7 @@ A Duct module that adds logging to a configuration, using [Cambium](https://camb
 To install, add the following to your project `:dependencies`:
 
 ```clj
-[duct.module.cambium "1.0.0"]
+[duct.module.cambium "1.1.0"]
 ```
 
 ## Usage
