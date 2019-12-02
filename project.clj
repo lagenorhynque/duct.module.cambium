@@ -5,7 +5,7 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :min-lein-version "2.8.1"
   :dependencies [;; Duct
-                 [duct/core "0.7.0"]
+                 [duct/core "0.8.0"]
                  [duct/logger "0.3.0"]
 
                  ;; Cambium
@@ -17,9 +17,9 @@
                    :dependencies [[org.clojure/clojure "1.10.1"]
                                   [pjstadig/humane-test-output "0.10.0"]]
                    :plugins [[jonase/eastwood "0.3.6"]
-                             [lein-cljfmt "0.6.4"]
+                             [lein-cljfmt "0.6.6"]
                              [lein-cloverage "1.1.2"]
-                             [lein-kibit "0.1.7"]]
+                             [lein-kibit "0.1.8"]]
                    :aliases {"test-coverage" ^{:doc "Execute cloverage."}
                              ["with-profile" "test" "cloverage" "--codecov" "--junit"]
                              "lint" ^{:doc "Execute cljfmt check, eastwood and kibit."}
