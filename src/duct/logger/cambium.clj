@@ -1,10 +1,11 @@
 (ns duct.logger.cambium
-  (:require [cambium.codec]
-            [cambium.core]
-            [cambium.logback.json.flat-layout]
-            [clojure.string :as str]
-            [duct.logger :as logger]
-            [integrant.core :as ig]))
+  (:require
+   [cambium.codec]
+   [cambium.core]
+   [cambium.logback.json.flat-layout]
+   [clojure.string :as str]
+   [duct.logger :as logger]
+   [integrant.core :as ig]))
 
 (cambium.logback.json.flat-layout/set-decoder!
  cambium.codec/destringify-val)
@@ -31,7 +32,8 @@
 (deflevel debug)
 (deflevel trace)
 
-(defrecord Logger [config]
+(defrecord Logger
+  [config]
   logger/Logger
   (-log [_ level ns-str _ line _ event data]
     (let [mdc {:ns ns-str
