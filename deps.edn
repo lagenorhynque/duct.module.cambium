@@ -3,7 +3,7 @@
         duct/logger {:mvn/version "0.3.0"}
 
         ;; Cambium
-        cambium/cambium.codec-cheshire {:mvn/version "0.9.3"}
-        cambium/cambium.core {:mvn/version "0.9.3"}
-        cambium/cambium.logback.json {:mvn/version "0.4.3"}}
+        cambium/cambium.codec-cheshire {:mvn/version "1.0.0"}
+        cambium/cambium.core {:mvn/version "1.0.0"}
+        cambium/cambium.logback.json {:mvn/version "0.4.4"}}
  :paths ["src"]}
