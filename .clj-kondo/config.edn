@@ -1,0 +1,5 @@
+{:lint-as {clojure.test.check.clojure-test/defspec clojure.test/deftest
+           clojure.test.check.properties/for-all clojure.core/for
+           duct.logger.cambium/deflevel clojure.core/def
+           duct.logger.cambium-test/with-system clojure.core/with-open}
+ :linters {:unresolved-namespace {:exclude []}}}

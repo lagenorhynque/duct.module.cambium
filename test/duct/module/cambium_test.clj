@@ -1,7 +1,7 @@
 (ns duct.module.cambium-test
-  (:require [clojure.test :as t]
-            [duct.core :as duct]
-            [duct.module.cambium :as sut]))
+  (:require
+   [clojure.test :as t]
+   [duct.core :as duct]))
 
 (duct/load-hierarchy)
 

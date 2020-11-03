@@ -1,9 +1,9 @@
 (ns duct.logger.cambium-test
-  (:require [clojure.test :as t]
-            [duct.core :as duct]
-            [duct.logger]
-            [integrant.core :as ig]
-            [duct.logger.cambium :as sut]))
+  (:require
+   [clojure.test :as t]
+   [duct.core :as duct]
+   [duct.logger]
+   [integrant.core :as ig]))
 
 (duct/load-hierarchy)
 
