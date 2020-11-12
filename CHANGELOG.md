@@ -4,16 +4,18 @@ All notable changes to this project will be documented in this file. This change
 ## [Unreleased]
 
 ## [1.2.0] - 2020-11-04
+### Changed
 - Update dependencies
     - [cambium/cambium.core 1.0.0](https://github.com/cambium-clojure/cambium.core/blob/master/CHANGELOG.md#100--2020-september-29)
 
 ## [1.1.0] - 2019-12-02
+### Changed
 - Update dependencies
     - [duct/core 0.8.0](https://github.com/duct-framework/core/blob/master/CHANGELOG.md#080-2019-11-28)
 
 ## [1.0.0] - 2019-11-07
 ### Added
-- Support :top-level-field option for specifying top-level field name for MDC map
+- Support `:top-level-field` option for specifying top-level field name for MDC map
 
 ## 0.1.0 - 2019-11-04
 ### Added
