@@ -1,9 +1,10 @@
-{:file-ignore #{}
- :indents {defspec [[:inner 0]]
-           fdef [[:inner 0]]
-           for-all [[:inner 0]]}
- :line-break-functions? false
- :list-indent-size 1
- :max-consecutive-blank-lines 1
- :padding-lines 1
- :reformat-types? false}
+{:files {:ignore #{}}
+ :rules {:blank-lines {:max-consecutive 1
+                       :padding-lines 1}
+         :functions {:enabled? false}
+         :indentation {:indents {defspec [[:inner 0]]
+                                 fdef [[:inner 0]]
+                                 for-all [[:inner 0]]}
+                       :list-indent 1}
+         :namespaces {:indent-size 1}
+         :types {:enabled? false}}}
