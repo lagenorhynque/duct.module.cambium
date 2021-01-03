@@ -58,8 +58,9 @@ And add `logback.xml` (or `logback-test.xml`) as below to the resource path.
 
 ## Examples
 
-- [lagenorhynque/clj-rest-api](https://github.com/lagenorhynque/clj-rest-api): an example REST API based on Pedestal & Duct
-- [lagenorhynque/aqoursql](https://github.com/lagenorhynque/aqoursql): an example GraphQL API based on Lacinia-Pedestal & Duct
+- [lagenorhynque/clj-rest-api](https://github.com/lagenorhynque/clj-rest-api): an example REST API based on [Pedestal](https://github.com/pedestal/pedestal) & Duct
+- [lagenorhynque/aqoursql](https://github.com/lagenorhynque/aqoursql): an example GraphQL API based on [Lacinia-Pedestal](https://github.com/walmartlabs/lacinia-pedestal) & Duct
+- [lagenorhynque/route-guide](https://github.com/lagenorhynque/route-guide): an example gRPC API based on [Protojure](https://github.com/protojure/lib), Pedestal & Duct
 
 ## License
 
