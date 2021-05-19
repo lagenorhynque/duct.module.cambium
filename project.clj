@@ -10,14 +10,14 @@
 
                  ;; Cambium
                  [cambium/cambium.codec-cheshire "1.0.0"]
-                 [cambium/cambium.core "1.0.0"]
+                 [cambium/cambium.core "1.1.0"]
                  [cambium/cambium.logback.json "0.4.4"]]
   :deploy-repositories [["releases" :clojars]]
   :profiles {:dev {:resource-paths ["dev/resources"]
-                   :dependencies [[org.clojure/clojure "1.10.1"]
-                                  [pjstadig/humane-test-output "0.10.0"]]
-                   :plugins [[jonase/eastwood "0.3.11"]
-                             [lein-cloverage "1.2.1"]
+                   :dependencies [[org.clojure/clojure "1.10.3"]
+                                  [pjstadig/humane-test-output "0.11.0"]]
+                   :plugins [[jonase/eastwood "0.4.2"]
+                             [lein-cloverage "1.2.2"]
                              [lein-kibit "0.1.8"]]
                    :aliases {"test-coverage" ^{:doc "Execute cloverage."}
                              ["with-profile" "test" "cloverage" "--codecov" "--junit"]
