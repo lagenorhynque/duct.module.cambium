@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file. This change
 
 ## [Unreleased]
 
+## [1.3.1] - 2024-01-04
+### Changed
+- Update dependencies
+    - [cambium.core 1.1.1](https://github.com/cambium-clojure/cambium.core/blob/master/CHANGELOG.md#111--2021-december-16)
+    - [cambium.logback.json 0.4.6](https://github.com/cambium-clojure/cambium.logback.json/blob/master/CHANGELOG.md#046--2023-november-06)
+
 ## [1.3.0] - 2021-05-19
 ### Changed
 - Update dependencies
@@ -27,7 +33,8 @@ All notable changes to this project will be documented in this file. This change
 - Duct module for Cambium
     - structured (JSON) logging
 
-[Unreleased]: https://github.com/lagenorhynque/duct.module.cambium/compare/1.3.0...HEAD
+[Unreleased]: https://github.com/lagenorhynque/duct.module.cambium/compare/1.3.1...HEAD
+[1.3.1]: https://github.com/lagenorhynque/duct.module.cambium/compare/1.3.0...1.3.1
 [1.3.0]: https://github.com/lagenorhynque/duct.module.cambium/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/lagenorhynque/duct.module.cambium/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/lagenorhynque/duct.module.cambium/compare/1.0.0...1.1.0
